@@ -225,3 +225,17 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
+}
+
+@media (max-width:640)  {
+	
+}
+
+@media (max-width:768) {
+
+}
+
+@media (min-width:980) {
+
+}
