@@ -114,9 +114,9 @@ nav a:first-child {
 }
 
 .sidebar {
-	background: #fff
+	background: #fff;
 	padding: 30px;
-	width: 100%
+	width: 100%;
 	max-width: 270px;
 	float: right;
 	border: 1px solid #ddd;
@@ -224,18 +224,23 @@ input[type=submit] {
 	font-size: 18px;
 	padding: 10px 30px;
 	cursor: pointer;
-}
 
 }
 
-@media (max-width:640)  {
-	
+@media (max-width:640px)  {
+	.sidebar {
+		max-width: 100%;
+	}
 }
 
-@media (max-width:768) {
-
+@media (max-width:768px) {
+	.sidebar {
+		max-width: 720px
 }
+	.main-section {
+		max-width: 720px
+	}
 
-@media (min-width:980) {
+@media (min-width:980px) {
 
 }
